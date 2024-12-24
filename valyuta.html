@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valyuta</title>
+    <link rel="stylesheet" href="valyuta.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="valyuta">
+        <h2>Awesome Currency Converter</h2>
+        <div class="valyuta_1">
+            <h3>Convert:</h3>
+            <input type="text" id="val_1">
+        </div>
+        <div class="valyuta_2">
+            <select name="Valyuta" id="Valyuta">
+                <option value="USD">USD</option>
+                <option value="TL">TL</option>
+                <option value="AZE">AZE</option>
+            </select>
+            <div>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+            <select name="Valyuta" id="Valyuta">
+                <option value="USD">USD</option>
+                <option value="TL">TL</option>
+                <option value="AZE">AZE</option>
+            </select>
+        </div>
+        <div class="valyuta_3">
+            <h3>Exchange Rate:</h3>
+            <!-- <input type="text" id="cixis"> -->
+            <p id="cixis" class="cixis"></p>
+        </div>
+        <button onclick="clic()" type="submit">Exchange my money now!</button>
+    </div>
+    <script src="valyuta.js"></script>
+</body>
+</html>
